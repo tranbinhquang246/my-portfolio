@@ -1,6 +1,8 @@
+import MainLayout from "@components/layouts/MainLayout"
+
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <MainLayout>Homepage</MainLayout>
   )
 }
 
