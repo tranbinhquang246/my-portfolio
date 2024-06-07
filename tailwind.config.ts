@@ -26,11 +26,14 @@ const config: Config = {
           '0%, 100%': { opacity: '0.2' },
           '50%': { opacity: '1' },
         },
-        // This effect for as skeleton loading element
         loadingShimmer: {
           to: {
             backgroundPositionX: '-10%',
           },
+        },
+        slideTop: {
+          '0%': { transform: 'translateY(100px)', opacity: '0' },
+          '100%': { transform: 'translateY(0px)', opacity: '1' },
         },
       },
     },
