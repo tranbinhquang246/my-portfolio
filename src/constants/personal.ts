@@ -1,3 +1,10 @@
+export const personalInfo = [
+  { name: 'Personality 1', color: '#2c98f0' },
+  { name: 'Personality 2', color: '#ec5453' },
+  { name: 'Personality 3', color: '#f9bf3f' },
+  { name: 'Personality 4', color: '#a84cb8' },
+];
+
 export const contactInfo = [
   {
     name: 'Facebook',

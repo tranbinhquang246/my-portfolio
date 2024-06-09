@@ -20,6 +20,7 @@ const config: Config = {
       },
       boxShadow: {
         common: '0px 0px 10px 1px #00000014',
+        bootstrap: '0px 0px 56px -8px rgba(0, 0, 0, 0.17)',
       },
       keyframes: {
         loading: {
@@ -32,8 +33,8 @@ const config: Config = {
           },
         },
         slideTop: {
-          '0%': { transform: 'translateY(100px)', opacity: '0' },
-          '100%': { transform: 'translateY(0px)', opacity: '1' },
+          '0%': { transform: 'translateY(50px)', opacity: '0' },
+          '100%': { transform: 'translateY(-50%)', opacity: '1' },
         },
       },
     },

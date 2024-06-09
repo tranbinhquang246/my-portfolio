@@ -10,7 +10,7 @@ const MainLayout = ({ children, className }: MainLayoutProps) => {
   return (
     <div className={`flex gap-4 max-w-[1440px] w-full ${className}`}>
       <Sidebar />
-      <div className="flex-grow ml-[316px] float-right">{children}</div>
+      <main className="flex-grow ml-[300px] float-right">{children}</main>
     </div>
   );
 };

@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 import ImageRound from '@components/common/Image';
 
-import { contactInfo } from '@constants/contact';
+import { contactInfo } from '@constants/personal';
 import { menuSideBarItems } from '@constants/menu';
 
 const Sidebar = () => {
   return (
-    <div className="fixed z-50 flex flex-col gap-8 items-center justify-between h-screen px-4 py-12 bg-[#F2F3F7] w-[300px]">
+    <aside className="fixed z-50 flex flex-col gap-8 items-center justify-between h-screen px-4 py-12 bg-[#F2F3F7] w-[300px]">
       <div className="w-full flex flex-col gap-8 items-center">
         <ImageRound
           src="/images/avatar.jpg"
@@ -42,7 +42,7 @@ const Sidebar = () => {
           ))}
         </div>
       </div>
-    </div>
+    </aside>
   );
 };
 
