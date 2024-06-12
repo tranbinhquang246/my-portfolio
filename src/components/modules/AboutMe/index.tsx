@@ -76,14 +76,6 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col mt-16">
-        <span className="text-sm uppercase tracking-[8px] text-gray-400 mb-4 px-6">
-          MY SPECIALTY?
-        </span>
-        <span className="text-lg uppercase font-bold tracking-widest px-6">
-          My skill
-        </span>
-      </div>
     </section>
   );
 };
