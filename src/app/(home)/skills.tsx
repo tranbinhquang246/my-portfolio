@@ -1,4 +1,5 @@
-import Card from './Card';
+import Card from '@components/modules/Skills/Card';
+
 import { skills } from '@constants/personal';
 
 const Skills = () => {

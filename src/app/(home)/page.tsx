@@ -1,7 +1,7 @@
 import MainLayout from '@components/layouts/MainLayout';
-import AboutMe from '@components/modules/AboutMe';
-import Introduction from '@components/modules/Introduction';
-import Skills from '@components/modules/Skills';
+import Introduction from './introduction';
+import AboutMe from './about-me';
+import Skills from './skills';
 
 const Homepage = () => {
   return (
