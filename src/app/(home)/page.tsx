@@ -2,6 +2,7 @@ import MainLayout from '@components/layouts/MainLayout';
 import Introduction from './introduction';
 import AboutMe from './about-me';
 import Skills from './skills';
+import Education from './education';
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
         <Introduction />
         <AboutMe />
         <Skills />
+        <Education />
       </div>
     </MainLayout>
   );
