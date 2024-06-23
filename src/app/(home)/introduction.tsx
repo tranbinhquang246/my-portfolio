@@ -1,6 +1,3 @@
-'use client';
-import ImageRound from '@components/common/Image';
-
 const Introduction = () => {
   return (
     <section className="relative h-screen bg-[url('/images/aboutme.jpg')] bg-cover bg-fixed bg-center">
@@ -14,14 +11,6 @@ const Introduction = () => {
           Next.js with over 1 year of experience. I&apos;m so glad to have you
           here.
         </span>
-        <div className="flex flex-col items-center w-fit mt-6 animate-bounce">
-          <span>Scroll down to see more</span>
-          <ImageRound
-            alt="arrow down"
-            src={'/icons/arrow-down.svg'}
-            className="w-4 h-4"
-          />
-        </div>
       </div>
     </section>
   );
