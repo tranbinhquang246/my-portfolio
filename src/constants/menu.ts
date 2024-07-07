@@ -12,19 +12,19 @@ export const menuSideBarItems = [
     href: '#',
   },
   {
-    name: 'Skill',
+    name: 'Skills',
     href: '#',
   },
   {
-    name: 'Education',
+    name: 'Educations',
     href: '#',
   },
   {
-    name: 'Experience',
+    name: 'Experiences',
     href: '#',
   },
   {
-    name: 'Work',
+    name: 'Projects',
     href: '#',
   },
   {
